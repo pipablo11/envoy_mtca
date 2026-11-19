@@ -454,6 +454,7 @@ EXTENSIONS = {
 
     "envoy.tls.cert_validator.dynamic_modules":          "//source/extensions/transport_sockets/tls/cert_validator/dynamic_modules:config",
     "envoy.tls.cert_validator.spiffe":                  "//source/extensions/transport_sockets/tls/cert_validator/spiffe:config",
+    "envoy.tls.cert_validator.mtc":                     "//source/extensions/transport_sockets/tls/cert_validator/mtc:config",
 
     #
     # TLS handshakers
